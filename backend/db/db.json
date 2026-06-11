@@ -1,0 +1,185 @@
+{
+  "jobs": [
+    {
+      "id": "j1",
+      "title": "Frontend Developer",
+      "company": "TechCorp India",
+      "location": "Chennai, Tamil Nadu",
+      "type": "Full-time",
+      "salary": "₹6–10 LPA",
+      "description": "We are looking for a skilled Frontend Developer with 2+ years of experience in React and CSS. You will build responsive UIs, collaborate with designers, and optimize performance.",
+      "requirements": ["React", "JavaScript", "CSS", "Git"],
+      "postedAt": "2024-06-01",
+      "applications": []
+    },
+    {
+      "id": "j2",
+      "title": "Full Stack Developer",
+      "company": "StartupX",
+      "location": "Remote",
+      "type": "Full-time",
+      "salary": "₹8–14 LPA",
+      "description": "Join our growing team to build full-stack features using React and Node.js. Work on real products used by thousands of users.",
+      "requirements": ["React", "Node.js", "MongoDB", "REST APIs"],
+      "postedAt": "2024-06-05",
+      "applications": []
+    },
+    {
+      "id": "j3",
+      "title": "Java Backend Developer",
+      "company": "Infosys Ltd",
+      "location": "Bengaluru, Karnataka",
+      "type": "Full-time",
+      "salary": "₹5–9 LPA",
+      "description": "Develop and maintain enterprise-grade Java backend services. Work with Spring Boot and SQL databases in an agile environment.",
+      "requirements": ["Java", "Spring Boot", "SQL", "Microservices"],
+      "postedAt": "2024-06-08",
+      "applications": []
+    },
+    {
+      "id": "j4",
+      "title": "Data Analyst Intern",
+      "company": "Analytics Hub",
+      "location": "Hyderabad, Telangana",
+      "type": "Internship",
+      "salary": "₹15,000/month",
+      "description": "Analyze large datasets, create dashboards, and generate insights for business decision-making. Python and SQL experience required.",
+      "requirements": ["Python", "SQL", "Excel", "Tableau"],
+      "postedAt": "2024-06-10",
+      "applications": []
+    },
+    {
+      "id": "j5",
+      "title": "UI/UX Designer",
+      "company": "DesignStudio",
+      "location": "Mumbai, Maharashtra",
+      "type": "Contract",
+      "salary": "₹4–7 LPA",
+      "description": "Design beautiful user interfaces for web and mobile apps. Strong Figma skills and a good portfolio are essential.",
+      "requirements": ["Figma", "Adobe XD", "Prototyping", "User Research"],
+      "postedAt": "2024-06-12",
+      "applications": []
+    },
+    {
+      "id": "j6",
+      "title": "DevOps Engineer",
+      "company": "CloudBase",
+      "location": "Pune, Maharashtra",
+      "type": "Full-time",
+      "salary": "₹10–16 LPA",
+      "description": "Manage CI/CD pipelines, cloud infrastructure, and deployment processes. AWS and Docker experience is a must.",
+      "requirements": ["AWS", "Docker", "Kubernetes", "CI/CD"],
+      "postedAt": "2024-06-14",
+      "applications": []
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "q1",
+      "title": "JavaScript Basics",
+      "description": "Test your JavaScript fundamentals",
+      "author": "Suresh Gopi V",
+      "createdAt": "2024-06-01",
+      "questions": [
+        {
+          "id": "q1_1",
+          "question": "Which keyword declares a block-scoped variable in JavaScript?",
+          "options": ["var", "let", "const", "all of the above"],
+          "correct": 1
+        },
+        {
+          "id": "q1_2",
+          "question": "What does 'typeof null' return?",
+          "options": ["null", "undefined", "object", "string"],
+          "correct": 2
+        },
+        {
+          "id": "q1_3",
+          "question": "Which method adds an element to the end of an array?",
+          "options": ["push()", "pop()", "shift()", "unshift()"],
+          "correct": 0
+        },
+        {
+          "id": "q1_4",
+          "question": "What is the correct way to define an arrow function?",
+          "options": ["function => {}", "const fn = () => {}", "fn() => {}", "=> function(){}"],
+          "correct": 1
+        },
+        {
+          "id": "q1_5",
+          "question": "What does '===' check compared to '=='?",
+          "options": ["Length", "Value only", "Value and type", "Memory address"],
+          "correct": 2
+        }
+      ],
+      "submissions": []
+    },
+    {
+      "id": "q2",
+      "title": "React Fundamentals",
+      "description": "Quiz on React concepts and hooks",
+      "author": "Suresh Gopi V",
+      "createdAt": "2024-06-05",
+      "questions": [
+        {
+          "id": "q2_1",
+          "question": "What hook is used for side effects in React?",
+          "options": ["useState", "useEffect", "useContext", "useRef"],
+          "correct": 1
+        },
+        {
+          "id": "q2_2",
+          "question": "What does JSX stand for?",
+          "options": ["JavaScript XML", "Java Syntax Extension", "JSON XML", "JavaScript Export"],
+          "correct": 0
+        },
+        {
+          "id": "q2_3",
+          "question": "Which function re-renders a React component?",
+          "options": ["render()", "setState()", "update()", "refresh()"],
+          "correct": 1
+        }
+      ],
+      "submissions": []
+    }
+  ],
+  "products": [
+    { "id": "p1", "name": "Wireless Headphones", "category": "Electronics", "price": 2499, "originalPrice": 3999, "rating": 4.5, "reviews": 128, "stock": 45, "image": "🎧", "description": "Premium wireless headphones with ANC, 30hr battery life and Hi-Fi audio quality." },
+    { "id": "p2", "name": "Mechanical Keyboard", "category": "Electronics", "price": 3299, "originalPrice": 4500, "rating": 4.7, "reviews": 89, "stock": 22, "image": "⌨️", "description": "RGB mechanical keyboard with Cherry MX switches, USB-C, and compact TKL layout." },
+    { "id": "p3", "name": "Running Shoes", "category": "Sports", "price": 1899, "originalPrice": 2999, "rating": 4.3, "reviews": 215, "stock": 60, "image": "👟", "description": "Lightweight breathable running shoes with advanced cushioning for long-distance runs." },
+    { "id": "p4", "name": "Smart Water Bottle", "category": "Health", "price": 799, "originalPrice": 1299, "rating": 4.1, "reviews": 67, "stock": 80, "image": "🍶", "description": "Temperature display, 500ml stainless steel insulated bottle. Keeps drinks cold/hot for 24hr." },
+    { "id": "p5", "name": "Laptop Stand", "category": "Electronics", "price": 1199, "originalPrice": 1799, "rating": 4.6, "reviews": 154, "stock": 35, "image": "💻", "description": "Adjustable aluminum laptop stand with 6 height settings, compatible with 10–17 inch laptops." },
+    { "id": "p6", "name": "Yoga Mat", "category": "Sports", "price": 599, "originalPrice": 999, "rating": 4.4, "reviews": 302, "stock": 100, "image": "🧘", "description": "Anti-slip 6mm thick yoga mat with carry strap. Perfect for home workouts and gym sessions." },
+    { "id": "p7", "name": "Coffee Mug Set", "category": "Home", "price": 449, "originalPrice": 699, "rating": 4.2, "reviews": 88, "stock": 50, "image": "☕", "description": "Set of 4 ceramic mugs with minimalist design, microwave and dishwasher safe." },
+    { "id": "p8", "name": "Desk Lamp", "category": "Home", "price": 1299, "originalPrice": 1899, "rating": 4.5, "reviews": 76, "stock": 28, "image": "💡", "description": "LED desk lamp with 5 color modes, USB charging port, and adjustable arm for perfect lighting." }
+  ],
+  "orders": [],
+  "projects": [
+    {
+      "id": "proj1",
+      "name": "Plant Disease Prediction",
+      "description": "AI-driven disease detection system using image analysis",
+      "color": "#34d399",
+      "createdAt": "2024-05-01",
+      "tasks": [
+        { "id": "t1", "title": "Setup ML model", "status": "done", "priority": "high", "due": "2024-05-10", "assignee": "Suresh" },
+        { "id": "t2", "title": "Build API endpoints", "status": "done", "priority": "high", "due": "2024-05-15", "assignee": "Suresh" },
+        { "id": "t3", "title": "Create frontend UI", "status": "inprogress", "priority": "medium", "due": "2024-05-20", "assignee": "Suresh" },
+        { "id": "t4", "title": "Write tests", "status": "todo", "priority": "low", "due": "2024-05-25", "assignee": "Suresh" }
+      ]
+    },
+    {
+      "id": "proj2",
+      "name": "Smart Parking System",
+      "description": "IoT-based smart parking management and slot tracking",
+      "color": "#63b3ed",
+      "createdAt": "2024-05-15",
+      "tasks": [
+        { "id": "t5", "title": "Hardware setup", "status": "done", "priority": "high", "due": "2024-05-20", "assignee": "Team" },
+        { "id": "t6", "title": "Sensor integration", "status": "inprogress", "priority": "high", "due": "2024-05-28", "assignee": "Suresh" },
+        { "id": "t7", "title": "Mobile app UI", "status": "todo", "priority": "medium", "due": "2024-06-05", "assignee": "Suresh" }
+      ]
+    }
+  ],
+  "messages": []
+}
